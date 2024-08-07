@@ -1,0 +1,49 @@
+.root {
+    -fx-font-family: Arial, sans-serif;
+    -fx-background-color: #282c34;
+    -fx-padding: 20px;
+}
+
+.hbox {
+    -fx-alignment: center-left;
+}
+
+.vbox-left {
+    -fx-alignment: top-left;
+}
+
+.vbox-right {
+    -fx-alignment: center;
+}
+
+.button {
+    -fx-background-color: #5681af;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px 20px;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.text-field {
+    -fx-prompt-text-fill: #888; /* Placeholder text color */
+    -fx-border-color: #ced4da;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px; /* Font size for text */
+}
+
+.text-field:focused {
+    -fx-border-color: #466991;
+    -fx-border-width: 2px;
+}
+
+.label {
+    -fx-text-fill: #f4f4f4;
+    -fx-font-size: 14px;
+    -fx-wrap-text: true; /* Ensure text wraps within the label */
+}
